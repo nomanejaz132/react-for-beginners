@@ -1,9 +1,9 @@
 import React from 'react'
 
-const PropsInFunctionalComponent = ({value}) => {
+const PropsInFunctionalComponent = (props) => {
     return (
         <div>
-            {value}
+            {props.value}
         </div>
     )
 }

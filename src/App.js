@@ -7,6 +7,7 @@ import PropsInClassComponent from './components/PropsInClassComponent';
 import StateInClassComponent from './components/StateInClassComponent';
 import SetStateInClassComponent from './components/SetStateInClassComponent';
 import DestructuringPropsInFunctionalComponentI from './components/DestructuringPropsInFunctionalComponentI';
+import DestructuringPropsInFunctionalComponentII from './components/DestructuringPropsInFunctionalComponentII';
 
 
 
@@ -23,6 +24,7 @@ function App() {
       <StateInClassComponent />
       <SetStateInClassComponent />
       <DestructuringPropsInFunctionalComponentI value="Value" />
+      <DestructuringPropsInFunctionalComponentII value="Value" />
     </div>
   );
 }

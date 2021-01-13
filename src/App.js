@@ -9,6 +9,8 @@ import SetStateInClassComponent from './components/SetStateInClassComponent';
 import DestructuringPropsInFunctionalComponentI from './components/DestructuringPropsInFunctionalComponentI';
 import DestructuringPropsInFunctionalComponentII from './components/DestructuringPropsInFunctionalComponentII';
 import DestructuringPropsInClassComponent from './components/DestructuringPropsInClassComponent';
+import EventHandlingInFunctionalComponent from './components/EventHandlingInFunctionalComponent';
+
 
 
 
@@ -27,6 +29,7 @@ function App() {
       <DestructuringPropsInFunctionalComponentI value="Value" />
       <DestructuringPropsInFunctionalComponentII value="Value" />
       <DestructuringPropsInClassComponent value="Value"/>
+      <EventHandlingInFunctionalComponent />
     </div>
   );
 }

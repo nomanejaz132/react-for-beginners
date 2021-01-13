@@ -10,6 +10,8 @@ import DestructuringPropsInFunctionalComponentI from './components/Destructuring
 import DestructuringPropsInFunctionalComponentII from './components/DestructuringPropsInFunctionalComponentII';
 import DestructuringPropsInClassComponent from './components/DestructuringPropsInClassComponent';
 import EventHandlingInFunctionalComponent from './components/EventHandlingInFunctionalComponent';
+import EventHandlingInClassComponent from './components/EventHandlingInClassComponent';
+
 
 
 
@@ -30,6 +32,7 @@ function App() {
       <DestructuringPropsInFunctionalComponentII value="Value" />
       <DestructuringPropsInClassComponent value="Value"/>
       <EventHandlingInFunctionalComponent />
+      <EventHandlingInClassComponent />
     </div>
   );
 }

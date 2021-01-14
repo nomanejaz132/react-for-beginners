@@ -11,6 +11,7 @@ import DestructuringPropsInFunctionalComponentII from './components/Destructurin
 import DestructuringPropsInClassComponent from './components/DestructuringPropsInClassComponent';
 import EventHandlingInFunctionalComponent from './components/EventHandlingInFunctionalComponent';
 import EventHandlingInClassComponent from './components/EventHandlingInClassComponent';
+import BindingEventHandlerInRender from './components/BindingEventHandlerInRender';
 
 
 
@@ -33,6 +34,7 @@ function App() {
       <DestructuringPropsInClassComponent value="Value"/>
       <EventHandlingInFunctionalComponent />
       <EventHandlingInClassComponent />
+      <BindingEventHandlerInRender />
     </div>
   );
 }

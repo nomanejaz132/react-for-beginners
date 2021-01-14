@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class BindingEventHandlerInRender extends Component {
+class BindingEventHandlerInRenderUsingArrowFunction extends Component {
     constructor(props) {
         super(props)
     
@@ -11,7 +11,7 @@ class BindingEventHandlerInRender extends Component {
 
     clickHandler() {
         this.setState({
-            message: 'Event Binding in render method using bind keyword.'
+            message: 'Event Binding in render method using Arrow Function.'
         })
     }
     
@@ -19,10 +19,10 @@ class BindingEventHandlerInRender extends Component {
         return (
             <div>
                 {this.state.message}
-                <button onClick={this.clickHandler.bind(this)}>Click Here!</button>
+                <button onClick={()=>this.clickHandler()}>Click Here!</button>
             </div>
         )
     }
 }
 
-export default BindingEventHandlerInRender
+export default BindingEventHandlerInRenderUsingArrowFunction

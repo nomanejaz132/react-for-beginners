@@ -12,6 +12,7 @@ import DestructuringPropsInClassComponent from './components/DestructuringPropsI
 import EventHandlingInFunctionalComponent from './components/EventHandlingInFunctionalComponent';
 import EventHandlingInClassComponent from './components/EventHandlingInClassComponent';
 import BindingEventHandlerInRender from './components/BindingEventHandlerInRender';
+import BindingEventHandlerInRenderUsingArrowFunction from './components/BindingEventHandlerInRenderUsingArrowFunction';
 
 
 
@@ -35,6 +36,7 @@ function App() {
       <EventHandlingInFunctionalComponent />
       <EventHandlingInClassComponent />
       <BindingEventHandlerInRender />
+      <BindingEventHandlerInRenderUsingArrowFunction />
     </div>
   );
 }

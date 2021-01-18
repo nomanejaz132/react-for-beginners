@@ -13,9 +13,7 @@ import EventHandlingInFunctionalComponent from './components/EventHandlingInFunc
 import EventHandlingInClassComponent from './components/EventHandlingInClassComponent';
 import BindingEventHandlerInRender from './components/BindingEventHandlerInRender';
 import BindingEventHandlerInRenderUsingArrowFunction from './components/BindingEventHandlerInRenderUsingArrowFunction';
-
-
-
+import BindingEventHandlerInConstructor from './components/BindingEventHandlerInConstructor';
 
 
 
@@ -37,6 +35,7 @@ function App() {
       <EventHandlingInClassComponent />
       <BindingEventHandlerInRender />
       <BindingEventHandlerInRenderUsingArrowFunction />
+      <BindingEventHandlerInConstructor />
     </div>
   );
 }

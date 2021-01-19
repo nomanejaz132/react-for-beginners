@@ -15,6 +15,7 @@ import BindingEventHandlerInRender from './components/BindingEventHandlerInRende
 import BindingEventHandlerInRenderUsingArrowFunction from './components/BindingEventHandlerInRenderUsingArrowFunction';
 import BindingEventHandlerInConstructor from './components/BindingEventHandlerInConstructor';
 import BindingEventHandlerUsingArrowFunctionAsClassProperty from './components/BindingEventHandlerUsingArrowFunctionAsClassProperty';
+import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 
 
 
@@ -39,6 +40,7 @@ function App() {
       <BindingEventHandlerInRenderUsingArrowFunction />
       <BindingEventHandlerInConstructor />
       <BindingEventHandlerUsingArrowFunctionAsClassProperty />
+      <MethodsAsPropsParent />
     </div>
   );
 }

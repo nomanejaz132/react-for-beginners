@@ -16,6 +16,7 @@ import BindingEventHandlerInRenderUsingArrowFunction from './components/BindingE
 import BindingEventHandlerInConstructor from './components/BindingEventHandlerInConstructor';
 import BindingEventHandlerUsingArrowFunctionAsClassProperty from './components/BindingEventHandlerUsingArrowFunctionAsClassProperty';
 import MethodsAsPropsParent from './components/MethodsAsPropsParent';
+import ConditionalRenderingUsingIfElse from './components/ConditionalRenderingUsingIfElse'
 
 
 
@@ -41,6 +42,7 @@ function App() {
       <BindingEventHandlerInConstructor />
       <BindingEventHandlerUsingArrowFunctionAsClassProperty />
       <MethodsAsPropsParent />
+      <ConditionalRenderingUsingIfElse />
     </div>
   );
 }

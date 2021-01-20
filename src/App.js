@@ -19,6 +19,7 @@ import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 import ConditionalRenderingUsingIfElse from './components/ConditionalRenderingUsingIfElse'
 import ConditionalRenderingUsingElementVariable from './components/ConditionalRenderingUsingElementVariable'
 import ConditionalRenderingUsingTernaryOperator from './components/ConditionalRenderingUsingTernaryOperator'
+import ConditionalRenderingUsingShortCircuitOperator from './components/ConditionalRenderingUsingShortCircuitOperator'
 
 
 
@@ -47,6 +48,7 @@ function App() {
       <ConditionalRenderingUsingIfElse />
       <ConditionalRenderingUsingElementVariable />
       <ConditionalRenderingUsingTernaryOperator />
+      <ConditionalRenderingUsingShortCircuitOperator />
     </div>
   );
 }

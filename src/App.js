@@ -21,7 +21,7 @@ import ConditionalRenderingUsingElementVariable from './components/ConditionalRe
 import ConditionalRenderingUsingTernaryOperator from './components/ConditionalRenderingUsingTernaryOperator';
 import ConditionalRenderingUsingShortCircuitOperator from './components/ConditionalRenderingUsingShortCircuitOperator';
 import ListRenderingI from './components/ListRenderingI';
-
+import ListRenderingII from './components/ListRenderingII';
 
 
 
@@ -52,6 +52,7 @@ function App() {
       <ConditionalRenderingUsingTernaryOperator />
       <ConditionalRenderingUsingShortCircuitOperator />
       <ListRenderingI />
+      <ListRenderingII />
     </div>
   );
 }

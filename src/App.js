@@ -16,10 +16,12 @@ import BindingEventHandlerInRenderUsingArrowFunction from './components/BindingE
 import BindingEventHandlerInConstructor from './components/BindingEventHandlerInConstructor';
 import BindingEventHandlerUsingArrowFunctionAsClassProperty from './components/BindingEventHandlerUsingArrowFunctionAsClassProperty';
 import MethodsAsPropsParent from './components/MethodsAsPropsParent';
-import ConditionalRenderingUsingIfElse from './components/ConditionalRenderingUsingIfElse'
-import ConditionalRenderingUsingElementVariable from './components/ConditionalRenderingUsingElementVariable'
-import ConditionalRenderingUsingTernaryOperator from './components/ConditionalRenderingUsingTernaryOperator'
-import ConditionalRenderingUsingShortCircuitOperator from './components/ConditionalRenderingUsingShortCircuitOperator'
+import ConditionalRenderingUsingIfElse from './components/ConditionalRenderingUsingIfElse';
+import ConditionalRenderingUsingElementVariable from './components/ConditionalRenderingUsingElementVariable';
+import ConditionalRenderingUsingTernaryOperator from './components/ConditionalRenderingUsingTernaryOperator';
+import ConditionalRenderingUsingShortCircuitOperator from './components/ConditionalRenderingUsingShortCircuitOperator';
+import ListRenderingI from './components/ListRenderingI';
+
 
 
 
@@ -49,6 +51,7 @@ function App() {
       <ConditionalRenderingUsingElementVariable />
       <ConditionalRenderingUsingTernaryOperator />
       <ConditionalRenderingUsingShortCircuitOperator />
+      <ListRenderingI />
     </div>
   );
 }

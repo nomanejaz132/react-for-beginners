@@ -7,7 +7,7 @@ class EventHandlingInClassComponent extends Component {
     render() {
         return (
             <div>
-                This is event handling in class component.
+                This is event handling in Class Component.
                 <button onClick={this.clickHandler}>Click Here!</button>
             </div>
         )

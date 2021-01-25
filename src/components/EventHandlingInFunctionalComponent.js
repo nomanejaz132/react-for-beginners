@@ -6,7 +6,7 @@ function EventHandlingInFunctionalComponent() {
     }
     return (
         <div>
-            This is event handling in functional component.
+            This is event handling in Functional Component.
             <button onClick={clickHandler}>Click Here!</button>
         </div>
     )
